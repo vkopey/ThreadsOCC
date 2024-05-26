@@ -114,6 +114,7 @@ def replaceElType(s):
 
 
 if __name__=='__main__':
+    mesh()
     elset2nset()
     d={"boundLine1":"Line31","loadLine1":"Line26"}
     writeFinalINP(d)
